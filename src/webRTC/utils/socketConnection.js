@@ -5,7 +5,7 @@ export function socketConnection() {
     if (socket) {
         return socket;
     } else {
-        socket = io("http://localhost:3000");
+        socket = io("https://webrtc-socket-api.onrender.com");
         return socket;
     }
 }
